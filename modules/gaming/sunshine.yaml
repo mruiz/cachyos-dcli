@@ -1,0 +1,20 @@
+# Sunshine remote gaming with Tailscale
+# Remote game streaming over secure Tailscale network
+
+description: Sunshine remote gaming with Tailscale VPN for secure streaming
+
+packages:
+  - sunshine
+  # - tailscale
+
+services:
+  enabled:
+    - sunshine
+
+conflicts: []
+
+# Script to setup Tailscale and capture IP
+# post_install_hook: scripts/setup-sunshine-tailscale.sh
+
+# Tailscale IP will be saved here after setup
+# tailscale_ip: "100.106.165.111"

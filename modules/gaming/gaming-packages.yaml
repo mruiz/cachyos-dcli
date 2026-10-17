@@ -1,0 +1,21 @@
+# Gaming packages and tools
+# Everything needed for gaming on Linux
+
+description: Gaming packages and tools for Linux gaming
+
+packages:
+  - steam # Steam gaming platform
+  - gamescope # Gaming compositor
+  - mangohud # Performance overlay
+  - gamemode # Optimize system for gaming
+  - protonup-qt # Proton version manager
+  - sunshine # Remote Gaming
+  - joyshockmapper-git # A tool for DualSense, Dualshock4, JoyCon and Switch Pro Controllers
+  - dolphin-emu
+  - vulkan-tools
+  - lutris
+  - heroic-games-launcher-bin
+  - heroic-gogdl
+
+conflicts: []
+post_install_hook: ""

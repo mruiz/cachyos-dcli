@@ -1,0 +1,6 @@
+description: "Main module to manage RGB Led"
+
+conflicts: []
+
+package_files:
+  - rgb-packages.yaml

@@ -1,0 +1,39 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-shift-r": "editor::Rename",
+      "ctrl-escape": "editor::ShowCompletions",
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "secondary-t": "workspace::NewTerminal",
+      "secondary-shift-e": "editor::ToggleFocus",
+      "secondary-shift-g": "git_panel::ToggleFocus",
+      "secondary-shift-n": "project_panel::ToggleFocus",
+      "secondary-shift-t": "terminal_panel::ToggleFocus",
+    },
+  },
+  {
+    "context": "!ContextEditor > (Editor && mode == full)",
+    "bindings": {
+      "secondary-k": "assistant::InlineAssist",
+    },
+  },
+  {
+    "context": "Editor",
+    "use_key_equivalents": false,
+    "bindings": {
+      "secondary-/": ["editor::ToggleComments", { "advance_downwards": false }],
+    },
+  },
+]

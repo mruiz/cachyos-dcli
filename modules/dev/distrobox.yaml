@@ -1,0 +1,4 @@
+description: "Main Module to source other yaml files for distrobox"
+
+packages:
+  - distrobox

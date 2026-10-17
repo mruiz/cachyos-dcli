@@ -1,0 +1,18 @@
+# Niri window manager
+# Scrollable-tiling Wayland compositor
+
+description: Default applications for Niri
+
+packages:
+  - kitty # Terminal emulator
+  - fastfetch # System information tool
+  - fish # Fish shell
+  - nemo # File manager
+  - nemo-media-columns
+  - nemo-image-converter
+  - nemo-share # Samba
+  - raw-thumbnailer
+  - stl-thumbnailer
+  - syncthing
+
+conflicts: []

@@ -1,0 +1,6 @@
+description: Docker utilities...
+
+packages:
+  - docker
+  - docker-compose
+  - docker-buildx

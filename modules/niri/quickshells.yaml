@@ -1,0 +1,10 @@
+# Niri window manager
+# Scrollable-tiling Wayland compositor
+
+description: Shell components for Niri
+
+packages:
+  - dms-shell # DankMaterialShell (bar, notifications, launcher, lock)
+  - quickshell # DMS dependency
+
+conflicts: []

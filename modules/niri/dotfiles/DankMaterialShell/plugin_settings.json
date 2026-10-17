@@ -1,0 +1,32 @@
+{
+  "gameControllerBattery": {
+    "enabled": true,
+    "settingsSessionToken": 1777579404295
+  },
+  "dankQuickSearch": {
+    "enabled": true
+  },
+  "amdGpuMonitorRevive": {
+    "enabled": true
+  },
+  "amdGpuMonitor": {
+    "enabled": true
+  },
+  "calculator": {
+    "enabled": true,
+    "trigger": "="
+  },
+  "dankBitwarden": {
+    "enabled": true,
+    "trigger": "?",
+    "noTrigger": false
+  },
+  "dankDiskUsage": {
+    "enabled": true,
+    "showZfs": false,
+    "showNixStore": false
+  },
+  "colorPickerDms": {
+    "enabled": true
+  }
+}

@@ -1,0 +1,6 @@
+description: "Main Module to source other yaml files for cli"
+
+dotfiles_sync: true
+
+package_files:
+  - cli-apps.yaml

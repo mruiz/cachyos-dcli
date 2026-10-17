@@ -1,0 +1,6 @@
+description: Packages for RGB module
+packages:
+  - openrgb
+  - i2c-tools
+  - qt5-wayland
+  - qt6-wayland

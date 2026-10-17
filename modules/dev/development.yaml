@@ -1,0 +1,19 @@
+description: Development tools including IDEs and browsers
+
+packages:
+  - android-studio
+  - code
+  - zed
+  - clang
+  - cmake
+  - ninja
+  - libstdc++5
+  - git
+  - glu
+  - opencode
+  - ttf-cascadia-code
+  - tailscale
+  - uv
+  # - podman
+
+conflicts: []

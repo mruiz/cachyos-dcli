@@ -1,0 +1,7 @@
+description: 3d tools
+
+packages:
+  - flatpak:com.orcaslicer.OrcaSlicer
+  - blender
+  - freecad
+  - kicad

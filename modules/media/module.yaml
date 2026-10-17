@@ -1,0 +1,6 @@
+description: "Main Module to source other yaml files for multimedia"
+
+dotfiles_sync: false
+
+package_files:
+  - video.yaml

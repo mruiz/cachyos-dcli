@@ -1,0 +1,63 @@
+// Window rules let you adjust behavior for individual windows.
+// Find more information on the wiki:
+// https://yalter.github.io/niri/Configuration:-Window-Rules
+
+// Open the Firefox picture-in-picture player as floating by default.
+window-rule {
+    // This app-id regular expression will work for both:
+    // - host Firefox (app-id is "firefox")
+    // - Flatpak Firefox (app-id is "org.mozilla.firefox")
+    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+    open-floating true
+}
+
+// Example: enable rounded corners for all windows.
+// (This example rule is commented out with a "/-" in front.)
+window-rule {
+    geometry-corner-radius 9
+    clip-to-geometry true
+    draw-border-with-background false
+}
+
+// Floating kitty window centered on screen
+window-rule {
+    match app-id=r#"^floating-kitty$"#
+    open-floating true
+    default-column-width { fixed 1000; }
+    default-window-height { fixed 700; }
+}
+
+// Maximized Steam
+window-rule {
+    match app-id=r#"steam$"#
+    open-maximized-to-edges true
+    //open-on-workspace "gaming"
+}
+
+// Maximized VLC
+window-rule {
+    match app-id=r#"vlc$"#
+    open-maximized-to-edges true
+    //open-on-workspace "gaming"
+}
+
+// Launch game in fullscreen
+window-rule {
+    // Cette règle cible les jeux lancés via Steam/XWayland
+    match app-id="^steam_app_"
+    match title="^Jeu.*" // Ou le nom spécifique de ton jeu
+
+    open-fullscreen true
+}
+
+window-rule {
+    match app-id="steam"
+    match title="Steam : mode Big Picture"
+    open-on-output "HDMI-A-1"
+}
+
+window-rule {
+    match app-id=r#"^resolve$"#
+    open-floating true
+    open-focused true
+}

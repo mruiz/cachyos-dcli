@@ -1,0 +1,13 @@
+# Niri window manager
+# Scrollable-tiling Wayland compositor
+
+description: Build dependencies for Niri and related tools
+
+packages:
+  - cmake # Build system
+  - meson # Build system
+  - cpio # Archiving tool
+  - git # Version control
+  - gcc # C and C++ compilers
+
+conflicts: []

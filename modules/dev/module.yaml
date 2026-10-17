@@ -1,0 +1,10 @@
+description: "Main Module to source other yaml files for development"
+
+dotfiles_sync: true
+
+package_files:
+  - development.yaml
+  - flutter-rust.yaml
+  - node.yaml
+  - distrobox.yaml
+  - docker.yaml

@@ -1,0 +1,9 @@
+description: Davinci Resolve
+
+packages:
+  - davinci-resolve
+  - rocm-opencl-runtime
+  - davinci-resolve-checker-git
+  # - davinci-ffmpeg-encoder-plugin # Fonctionne uniquement avec studio
+
+conflicts: []

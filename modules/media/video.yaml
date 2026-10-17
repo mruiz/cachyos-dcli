@@ -1,0 +1,6 @@
+description: Video player etc
+
+packages:
+  - vlc
+
+conflicts: []

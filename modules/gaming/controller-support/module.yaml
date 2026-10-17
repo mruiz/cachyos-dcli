@@ -1,0 +1,8 @@
+description: "Game controller drivers and tools for various gaming controllers"
+
+conflicts:
+
+post_install_hook: "scripts/install-controller-udev-rules.sh"
+
+package_files:
+  - controller-support.yaml

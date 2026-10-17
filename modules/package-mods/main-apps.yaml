@@ -1,0 +1,54 @@
+# Main applications
+# Essential applications for daily workflow
+
+description: Main applications and utilities for daily use
+
+packages:
+  # Terminal
+  - kitty # GPU-accelerated terminal emulator
+  - fastfetch # System information utility
+
+  # File managers
+  - nemo # Cinnamon file manager
+  - nemo-fileroller
+  - zip
+  - file-roller
+
+  # Clipboard utilities
+  - wl-clipboard # Wayland clipboard utilities
+  - cliphist # Clipboard history manager
+
+  # Theming
+  - python-pywal # Color scheme generator
+
+  # Messaging
+  - vesktop # Discord client
+
+  # Virtualization
+  - virt-manager # Virtual machine manager
+
+  # Web browsers
+  - brave-bin
+  - chromium
+
+  # Password Manager
+  - bitwarden
+
+  # Multimedia
+  - flatpak:com.spotify.Client
+
+  # Raspberry Pi
+  - rpi-imager # Write Raspberry Pi OS images to SD cards
+  - xcb-util-cursor # Qt X11 platform plugin dependency
+  - xorg-xhost # Manage XWayland access for privileged GUI apps
+
+  # Others
+  - solaar # Manage Logitech devices
+  - flatpak:net.sourceforge.wxEDID
+  - whatsapp-ultra-fast-bin
+  - mtpfs # android filesystem
+  - android-tools
+  - gvfs-mtp
+
+conflicts: []
+post_install_hook: ""

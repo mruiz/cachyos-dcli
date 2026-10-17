@@ -1,0 +1,4 @@
+description: Development tools for node nextjs typescript etc...
+
+packages:
+  - typescript-language-server

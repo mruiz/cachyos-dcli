@@ -1,0 +1,10 @@
+[Nemo Action]
+Active=true
+Name=Convert Resolve(DNxHR HQX)
+Comment=Transcoding to DNxHR HQX 10-bit + audio PCM 24-bit
+Exec=to_dnxhr.py %F
+Icon-Name=media-convert
+Extensions=mp4;mkv;mov;avi;
+Quote=double
+Terminal=false
+Selection=any

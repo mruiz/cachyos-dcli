@@ -1,0 +1,10 @@
+// Right monitor
+output "DP-2" {
+    mode "3840x2160@143.999"
+    position x=0 y=0
+}
+
+output "HDMI-A-1" {
+    off
+    position x=10000 y=0 // On le place très loin à droite pour ne pas y perdre la souris
+}

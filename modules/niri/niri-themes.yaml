@@ -1,0 +1,16 @@
+# Niri window manager
+# Scrollable-tiling Wayland compositor
+
+description: Niri theme and visual packages
+
+packages:
+  - qt5ct # Qt5 configuration tool
+  - qt6ct # Qt6 configuration tool
+  - gtk3 # GTK 3 libraries
+  - gtk4 # GTK 4 libraries
+  - catppuccin-gtk-theme-mocha # Catppuccin Mocha GTK theme
+  - tela-icon-theme-purple-git # Icon theme
+  - bibata-cursor-theme-bin # Mouse cursor theme
+  - matugen-bin # Material color generation
+
+conflicts: []

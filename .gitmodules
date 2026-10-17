@@ -1,0 +1,21 @@
+[submodule "modules/niri/dotfiles/DankMaterialShell/plugins/amdGpuMonitor"]
+	path = modules/niri/dotfiles/DankMaterialShell/plugins/amdGpuMonitor
+	url = https://github.com/navidagz/dms-amd-gpu-monitor
+[submodule "modules/niri/dotfiles/DankMaterialShell/plugins/calculator"]
+	path = modules/niri/dotfiles/DankMaterialShell/plugins/calculator
+	url = https://github.com/rochacbruno/DankCalculator
+[submodule "modules/niri/dotfiles/DankMaterialShell/plugins/colorPickerDms"]
+	path = modules/niri/dotfiles/DankMaterialShell/plugins/colorPickerDms
+	url = https://github.com/bernardopg/color-picker-dms
+[submodule "modules/niri/dotfiles/DankMaterialShell/plugins/dankBitwarden"]
+	path = modules/niri/dotfiles/DankMaterialShell/plugins/dankBitwarden
+	url = https://github.com/pacman99/DankBitwarden
+[submodule "modules/niri/dotfiles/DankMaterialShell/plugins/dankDiskUsage"]
+	path = modules/niri/dotfiles/DankMaterialShell/plugins/dankDiskUsage
+	url = https://github.com/alcxyz/DankDiskUsage
+[submodule "modules/niri/dotfiles/DankMaterialShell/plugins/dankQuickSearch"]
+	path = modules/niri/dotfiles/DankMaterialShell/plugins/dankQuickSearch
+	url = https://github.com/alcxyz/DankQuickSearch
+[submodule "modules/niri/dotfiles/DankMaterialShell/plugins/gameControllerBattery"]
+	path = modules/niri/dotfiles/DankMaterialShell/plugins/gameControllerBattery
+	url = https://github.com/Hujair/gameControllerBattery

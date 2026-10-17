@@ -1,0 +1,24 @@
+description: Packages installed via dcli install or dcli search commands
+packages:
+- downgrade
+- quirc
+- libjxl
+- libjxl-0.11
+- x265
+- pipxu
+- gvfs
+- nfs-utils
+- gvfs-smb
+- gvfs-nfs
+- codex-desktop-git
+- lm-studio-bin
+- amdgpu_top
+- rquickshare-x-bin
+- gphoto2
+exclude: []
+conflicts: []
+pre_install_hook: null
+post_install_hook: null
+hook_behavior: ask
+pre_hook_behavior: null
+post_hook_behavior: null

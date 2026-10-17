@@ -1,0 +1,16 @@
+description: "Main Module to source other yaml files for content creating"
+
+dotfiles_sync: true
+dotfiles:
+  - source: convert_to_dnxhr_max.nemo_action
+    target: ~/.local/share/nemo/actions/convert_to_dnxhr.nemo_action
+  - source: to_dnxhr.sh
+    target: ~/.local/bin/to_dnxhr.sh
+  - source: to_dnxhr.py
+    target: ~/.local/bin/to_dnxhr.py
+  - source: to_dnxhr.qml
+    target: ~/.local/bin/to_dnxhr.qml
+
+package_files:
+  - davinci.yaml
+  - ffmpeg.yaml

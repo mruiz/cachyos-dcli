@@ -1,0 +1,6 @@
+description: "Main Module for 3d apps"
+
+dotfiles_sync: false
+
+package_files:
+  - 3d-tools.yaml

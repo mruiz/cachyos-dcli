@@ -1,0 +1,10 @@
+description: Davinci Resolve
+
+packages:
+  - handbrake-full
+  - ffmpeg
+  - ffmpeg-audio-thumbnailer
+  - ffmpegthumbnailer
+  - pyside6
+
+conflicts: []

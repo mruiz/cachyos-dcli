@@ -1,0 +1,19 @@
+description: Flutter and flutter_rust_bridge development tools
+
+# Flutter SDKs are managed per project with FVM. Android SDK platforms and the
+# side-by-side NDK are installed through Android Studio's SDK Manager.
+# After syncing, initialize Rust and install the Android targets/code generator:
+#   rustup default stable
+#   rustup target add aarch64-linux-android armv7-linux-androideabi x86_64-linux-android
+#   cargo install flutter_rust_bridge_codegen
+# In each project, select a Flutter SDK with `fvm use stable` and accept Android
+# SDK licenses with `fvm flutter doctor --android-licenses`.
+
+packages:
+  - fvm
+  - rustup
+  - cargo-ndk
+  - cargo-expand
+  - pkgconf
+
+conflicts: []

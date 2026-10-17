@@ -1,0 +1,15 @@
+# Base packages installed on all machines
+# These packages form the foundation of your system
+
+description: Base packages for all machines
+
+packages:
+  - base
+  - base-devel
+  - linux-firmware
+  - networkmanager
+  - vim
+  - git
+  - htop
+  - man-db
+  - man-pages

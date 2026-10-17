@@ -1,0 +1,19 @@
+description: "Main Module to source other yaml files for niri"
+
+# Optional: Modules that conflict with this one
+conflicts: []
+
+# Optional: Post-install hook script (relative to module directory)
+post_install_hook: "scripts/install-niri-dotfiles.sh"
+hooks_behavior: once # or "always", "skip", "once" (default)
+
+# Optional: Dotfiles Sync
+dotfiles_sync: true
+
+# Optional: Explicit list of package files to load (empty = auto-discover)
+package_files:
+  - quickshells.yaml
+  - niri-packages.yaml
+  - niri-themes.yaml
+  - dependencies.yaml
+  - default-apps.yaml
