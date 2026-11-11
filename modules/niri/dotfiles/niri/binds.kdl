@@ -254,6 +254,7 @@ binds {
     // Mod+Shift+Space { switch-layout "prev"; }
 
     Mod+Shift+S { screenshot; }
+    Print hotkey-overlay-title="DMS Region Capture + Edit" { spawn "dms" "ipc" "call" "quickCapture" "screenshot" "region" "edit"; }
     Ctrl+Print { screenshot-screen; }
     Alt+Print { screenshot-window; }
 
