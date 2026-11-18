@@ -25,6 +25,7 @@ enabled_modules:
   - video
   - media
   - 3d
+  - artcraft
 
 # Host-specific packages
 packages:

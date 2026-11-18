@@ -1,0 +1,8 @@
+description: "ArtCraft apps from the ArtCraft OCI flatpak remote"
+
+# dcli can't declare flatpak remotes, so the hook adds it
+post_install_hook: "scripts/add-artcraft-remote.sh"
+hook_behavior: once
+
+package_files:
+  - artcraft.yaml
