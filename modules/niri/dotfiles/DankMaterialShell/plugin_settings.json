@@ -28,5 +28,9 @@
   },
   "colorPickerDms": {
     "enabled": true
+  },
+  "quickCapture": {
+    "enabled": true,
+    "toolbarPosition": "top"
   }
 }

@@ -1,0 +1,34 @@
+{
+  "lockfileVersion": 1,
+  "plugins": {
+    "amdGpuMonitor": {
+      "repo": "https://github.com/navidagz/dms-amd-gpu-monitor",
+      "commit": "85cc3a2ace9b1c6e3ab4d4528e617159b1f8780e"
+    },
+    "calculator": {
+      "repo": "https://github.com/rochacbruno/DankCalculator",
+      "commit": "b8797a9a4068c5fee2a67358b60d82f532969792"
+    },
+    "colorPickerDms": {
+      "repo": "https://github.com/bernardopg/color-picker-dms",
+      "commit": "8fae34470097b6c78eeed1ea45d98a572b1acdfd"
+    },
+    "dankDiskUsage": {
+      "repo": "https://github.com/alcxyz/DankDiskUsage",
+      "commit": "0c39eb869c7a3007136f12125b1527988c44858f"
+    },
+    "dankQuickSearch": {
+      "repo": "https://github.com/alcxyz/DankQuickSearch",
+      "commit": "fd5c541f966b3b49fb857abc6e4b62472e5d1df7"
+    },
+    "gameControllerBattery": {
+      "repo": "https://github.com/Hujair/gameControllerBattery",
+      "commit": "41f03230aa077b5632ab6df044f73b7d1847766d"
+    },
+    "quickCapture": {
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "path": "quickCapture",
+      "commit": "0f26e7c76a96cef0a0bf654204c52cbeeaf84e09"
+    }
+  }
+}

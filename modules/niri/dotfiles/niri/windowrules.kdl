@@ -2,6 +2,11 @@
 // Find more information on the wiki:
 // https://yalter.github.io/niri/Configuration:-Window-Rules
 
+// Keep automatically floating dialogs and fixed-size windows in Niri's tiling layout.
+window-rule {
+    open-floating false
+}
+
 // Open the Firefox picture-in-picture player as floating by default.
 window-rule {
     // This app-id regular expression will work for both:
@@ -60,4 +65,12 @@ window-rule {
     match app-id=r#"^resolve$"#
     open-floating true
     open-focused true
+}
+
+// TotK Recomp: 4K/60 on the LG, VRR only while the game is visible.
+window-rule {
+    match app-id="^totk-recomp$"
+    open-on-output "DP-2"
+    open-fullscreen true
+    variable-refresh-rate true
 }

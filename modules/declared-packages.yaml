@@ -15,6 +15,13 @@ packages:
 - amdgpu_top
 - rquickshare-x-bin
 - gphoto2
+- claude-desktop
+- github-cli
+- claude-code
+- quiver-launcher-bin
+- stremio-bin
+- solidcraft-bin
+- wev
 exclude: []
 conflicts: []
 pre_install_hook: null

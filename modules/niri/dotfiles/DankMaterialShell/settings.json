@@ -10,7 +10,6 @@
   "matugenScheme": "scheme-rainbow",
   "popupTransparency": 0.9,
   "widgetColorMode": "colorful",
-  "cornerRadius": 2,
   "niriLayoutRadiusOverride": 2,
   "clockFormat": "24h",
   "barElevationEnabled": false,
@@ -18,50 +17,97 @@
   "blurWallpaperOnOverview": true,
   "controlCenterWidgets": [
     {
+      "id": "user",
+      "enabled": true,
+      "w": 5,
+      "h": 1
+    },
+    {
+      "id": "settings",
+      "enabled": true,
+      "w": 1,
+      "h": 1,
+      "small": true
+    },
+    {
+      "id": "lock",
+      "enabled": true,
+      "w": 1,
+      "h": 1,
+      "small": true
+    },
+    {
+      "id": "power",
+      "enabled": true,
+      "w": 1,
+      "h": 1,
+      "small": true
+    },
+    {
       "id": "volumeSlider",
       "enabled": true,
-      "width": 50
+      "w": 4,
+      "h": 1
     },
     {
       "id": "inputVolumeSlider",
       "enabled": true,
-      "width": 50
+      "w": 4,
+      "h": 1
     },
     {
       "id": "audioInput",
       "enabled": true,
-      "width": 50
+      "w": 4,
+      "h": 1
     },
     {
       "id": "audioOutput",
       "enabled": true,
-      "width": 50
+      "w": 4,
+      "h": 1
     },
     {
       "id": "wifi",
       "enabled": true,
-      "width": 50
+      "w": 4,
+      "h": 1
     },
     {
       "id": "bluetooth",
       "enabled": true,
-      "width": 50
+      "w": 4,
+      "h": 1
     },
     {
       "id": "idleInhibitor",
       "enabled": true,
-      "width": 50
+      "w": 4,
+      "h": 1
     },
     {
       "id": "doNotDisturb",
       "enabled": true,
-      "width": 50
+      "w": 4,
+      "h": 1
+    },
+    {
+      "id": "edit",
+      "enabled": true,
+      "w": 1,
+      "h": 1,
+      "small": true
+    },
+    {
+      "id": "runningApps",
+      "enabled": true,
+      "w": 4,
+      "h": 1,
+      "small": true,
+      "col": 0,
+      "row": 6
     }
   ],
-  "showWorkspaceIndex": true,
-  "maxWorkspaceIcons": 2,
-  "dwlShowAllTags": true,
-  "runningAppsCurrentWorkspace": false,
   "useAutoLocation": true,
   "cursorSettings": {
     "theme": "System Default",
@@ -79,24 +125,11 @@
       "cursorHideTimeout": 0
     }
   },
-  "launcherLogoMode": "custom",
-  "launcherLogoCustomPath": "/home/don/.config/arch-config/modules/bdots-hypr/blackdonlogo.png",
-  "launcherLogoColorOverride": "primary",
   "monoFontFamily": "FiraCode Nerd Font",
   "acMonitorTimeout": 1800,
   "acLockTimeout": 1200,
   "fadeToDpmsEnabled": false,
   "matugenTemplateNeovim": true,
-  "dockGroupByApp": true,
-  "dockSpacing": 7,
-  "dockBottomGap": -20,
-  "dockMargin": 9,
-  "dockIconSize": 48,
-  "dockIndicatorStyle": "line",
-  "dockBorderEnabled": true,
-  "dockBorderColor": "primary",
-  "dockBorderOpacity": 0.58,
-  "dockBorderThickness": 2,
   "maxFprintTries": 3,
   "powerMenuActions": [
     "reboot",
@@ -109,17 +142,8 @@
   ],
   "updaterUseCustomCommand": true,
   "updaterCustomCommand": "kitty -e dcli update",
-  "screenPreferences": {
-    "dock": [
-      {
-        "name": "DP-1",
-        "model": "CU34G2XP"
-      }
-    ]
-  },
-  "showOnLastDisplay": {
-    "dock": true
-  },
+  "screenPreferences": {},
+  "showOnLastDisplay": {},
   "barConfigs": [
     {
       "id": "default",
@@ -142,11 +166,17 @@
       "leftWidgets": [
         {
           "id": "launcherButton",
-          "enabled": true
+          "enabled": true,
+          "launcherLogoMode": "custom",
+          "launcherLogoCustomPath": "/home/don/.config/arch-config/modules/bdots-hypr/blackdonlogo.png",
+          "launcherLogoColorOverride": "primary"
         },
         {
           "id": "workspaceSwitcher",
-          "enabled": true
+          "enabled": true,
+          "showWorkspaceIndex": true,
+          "maxWorkspaceIcons": 2,
+          "dwlShowAllTags": true
         },
         {
           "id": "focusedWindow",
@@ -258,7 +288,9 @@
       "visible": true,
       "popupGapsAuto": true,
       "popupGapsManual": 4,
-      "shadowIntensity": 0
+      "shadowIntensity": 0,
+      "followInterfaceStyle": false,
+      "widgetFollowInterfaceStyle": true
     },
     {
       "id": "bar1767117245595",
@@ -315,9 +347,11 @@
       "popupGapsManual": 4,
       "maximizeDetection": true,
       "scrollEnabled": true,
-      "scrollXBehavior": "column",
+      "scrollXBehavior": "focusWindow",
       "scrollYBehavior": "workspace",
-      "shadowIntensity": 0
+      "shadowIntensity": 0,
+      "followInterfaceStyle": false,
+      "widgetFollowInterfaceStyle": true
     },
     {
       "id": "bar1767117350475",
@@ -373,37 +407,13 @@
       "popupGapsManual": 4,
       "maximizeDetection": true,
       "scrollEnabled": true,
-      "scrollXBehavior": "column",
+      "scrollXBehavior": "focusWindow",
       "scrollYBehavior": "workspace",
-      "shadowIntensity": 0
+      "shadowIntensity": 0,
+      "followInterfaceStyle": false,
+      "widgetFollowInterfaceStyle": true
     }
   ],
-  "desktopClockCustomColor": {
-    "r": 1,
-    "g": 1,
-    "b": 1,
-    "a": 1,
-    "hsvHue": -1,
-    "hsvSaturation": 0,
-    "hsvValue": 1,
-    "hslHue": -1,
-    "hslSaturation": 0,
-    "hslLightness": 1,
-    "valid": true
-  },
-  "systemMonitorCustomColor": {
-    "r": 1,
-    "g": 1,
-    "b": 1,
-    "a": 1,
-    "hsvHue": -1,
-    "hsvSaturation": 0,
-    "hsvValue": 1,
-    "hslHue": -1,
-    "hslSaturation": 0,
-    "hslLightness": 1,
-    "valid": true
-  },
   "desktopWidgetInstances": [
     {
       "id": "dw_clock_primary",
@@ -492,5 +502,85 @@
       }
     }
   ],
-  "configVersion": 18
+  "configVersion": 42,
+  "radiusStrength": 6,
+  "dockConfigs": [
+    {
+      "id": "dock",
+      "name": "Dock",
+      "enabled": false,
+      "screenPreferences": [
+        {
+          "name": "DP-1",
+          "model": "CU34G2XP"
+        }
+      ],
+      "showOnLastDisplay": true,
+      "position": 1,
+      "mode": "compact",
+      "taskbarAlign": "center",
+      "widgetExpansion": "popout",
+      "iconSize": 48,
+      "spacing": 7,
+      "itemSpacing": 4,
+      "margin": 9,
+      "bottomGap": -20,
+      "transparency": 1,
+      "followInterfaceStyle": false,
+      "autoHide": false,
+      "smartAutoHide": false,
+      "useOverlayLayer": false,
+      "editOnRightClick": false,
+      "showOnFullscreen": false,
+      "openOnOverview": false,
+      "groupByApp": true,
+      "separatePinnedAndRunningApps": false,
+      "restoreSpecialWorkspaceOnClick": false,
+      "isolateDisplays": false,
+      "indicatorStyle": "line",
+      "borderEnabled": true,
+      "borderColor": "primary",
+      "borderOpacity": 0.58,
+      "borderThickness": 2,
+      "launcherEnabled": false,
+      "launcherLogoMode": "apps",
+      "launcherLogoCustomPath": "",
+      "launcherLogoColorOverride": "",
+      "launcherLogoSizeOffset": 0,
+      "launcherLogoBrightness": 0.5,
+      "launcherLogoContrast": 1,
+      "maxVisibleApps": 0,
+      "maxVisibleRunningApps": 0,
+      "showOverflowBadge": true,
+      "showTrash": false,
+      "trashFileManager": "default",
+      "trashCustomCommand": "",
+      "magnification": false,
+      "magnificationScale": 130,
+      "magnificationProfile": "parabolic",
+      "magnificationExpand": false,
+      "order": [],
+      "widgets": [
+        {
+          "id": "dock_launcher",
+          "widgetId": "dockLauncher",
+          "enabled": true
+        },
+        {
+          "id": "dock_apps",
+          "widgetId": "appsDock",
+          "enabled": true
+        },
+        {
+          "id": "dock_trash",
+          "widgetId": "dockTrash",
+          "enabled": true
+        }
+      ]
+    }
+  ],
+  "dmsWindowsFloatingSeeded": [
+    "niri"
+  ],
+  "bluetoothMprisEnabled": false
 }

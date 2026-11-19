@@ -1,5 +1,6 @@
 // Right monitor
 output "DP-2" {
+    variable-refresh-rate on-demand=true
     mode "3840x2160@143.999"
     position x=0 y=0
 }

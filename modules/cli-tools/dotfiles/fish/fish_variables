@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export DOCKHAND_MCP_TOKEN:6bdb236034d481d89af736de4010eea7777dbfcb8aa3167414ad5f3e98e3eb01
 SETUVAR __fish_initialized:4300
 SETUVAR fish_user_paths:/home/don/\x2econfig/scripts
 SETUVAR pure_begin_prompt_with_current_directory:true
