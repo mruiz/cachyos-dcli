@@ -2,3 +2,4 @@ description: ArtCraft apps
 
 packages:
   - flatpak:ai.artcraft.app
+  - flatpak:ai.storyteller.gridcraft
